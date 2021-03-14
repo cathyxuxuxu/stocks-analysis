@@ -249,17 +249,15 @@ End Sub
 ```
 
 
-
-
 ### Stock Performance between 2017 and 2018
 
 Stock Performance of 2017:
 
-image
+![](readmefiles/stock_2017.png)
 
 Stock Performance of 2018:
 
-image
+![](readmefiles/stock_2018.png)
 
 Comparing the above images, I found that the overall green energy stock performance of 2017 is much better than 2018, which indicates there is bubble exist in green energy market. Looking at DQ stock particularly, the yearly return for 2017 is 199.4%, while for 2018 is -62.6%. The yearly return is not increasing consistently, therefore, DQ stock is not worth to invest.
 
@@ -268,7 +266,13 @@ Comparing the above images, I found that the overall green energy stock performa
 
 - Original Script
 
+![](readmefiles/ori_2017.png)
+![](readmefiles/ori_2018.png)
+
 - Refactored Script
+
+![](Resources/VBA_Challenge_2017.png)
+![](Resources/VBA_Challenge_2018.png)
 
 ## Summary
 
@@ -291,7 +295,7 @@ Comparing the above images, I found that the overall green energy stock performa
   ###### Advantages of the refactored VBA script:
 
     1.	VBA script is easier for other people to read.
-    2.	The code runs more efficient. According to the images above, we can see that the run time for refactored code is X times faster than the original code.
+    2.	The code runs more efficient. According to the images above, we can see that the run time for refactored code is 8 times faster than the original code.
 
   ###### Disadvantages of the original VBA script:
 
